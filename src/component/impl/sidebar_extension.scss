@@ -1,0 +1,14 @@
+.sidebar-extension {
+  position: relative;
+  float: left;
+  height: calc(100% - 40px);
+  background: var(--sidebar-extension-background);
+
+  .resizer {
+    position: absolute;
+    top: 0;
+    right: -2px;
+    width: 4px;
+    height: 100%;
+  }
+}
